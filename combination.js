@@ -3,12 +3,9 @@ c=0
 function a(){
   string=" "  
 for(i in dic){
-  
     result=(dic[i][c]);
     st_result=result.toString()
     string=string+" "+st_result
-    
-    
 }console.log(string);}
 function b(){
     a()
