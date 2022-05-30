@@ -1,0 +1,13 @@
+n=int(input())
+l=[]
+for i in range(n):
+    a=int(input())
+    l.append(a)
+b=input()
+charges=0
+for j in range(len(b)):
+    if b[j]=="P":
+        charges+=l[j]
+    elif b[j]=="N":
+        charges=charges-l[j]
+print(charges*100)
